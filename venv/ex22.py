@@ -1,0 +1,12 @@
+nome = str(input('Digite seu nome completo : '))
+upper = nome.upper()
+lower = nome.lower()
+junto = nome.split()
+espaco = ''.join(junto)
+#count = len(junto[0])
+
+print('O seu nome completo é : {}'.format(nome))
+print('Seu nome em letras maiusculas : {}'.format(upper))
+print('Seu nome com letras minusculas : {}'.format(lower))
+print('A quantidade de letras tirando os espaços em seu nome é : {}'.format(len(espaco)))
+print('O seu primeiro nome tem {} letras '.format(len(junto[0])))

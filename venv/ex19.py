@@ -1,0 +1,15 @@
+import random
+print('Escreva os nomes dos alunos para apagar o quador : ')
+aluno1 = input('Primeiro aluno : ')
+aluno2 = input('Segundo aluno :  ')
+aluno3 = input('Terceiro aluno : ')
+aluno4 = input('Quarto aluno :  ')
+aluno = [aluno1,aluno2,aluno3,aluno4]
+print('-'*16)
+print('Lista de Alunos : ')
+print('    {}  '.format(aluno1))
+print('    {}  '.format(aluno2))
+print('    {}  '.format(aluno3))
+print('    {}  '.format(aluno4))
+print('O aluno escolhido para apagar o quadro foi : ',random.choice(aluno))
+print('-'*50)

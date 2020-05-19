@@ -1,0 +1,13 @@
+Automato finito deterministico (DFA)
+se tiver algum estado sem algum simbolo do alfabeto quer dizre que ele não eh determistico
+para ser deterministico ele precisa de tudo certinho especificado
+quando tem todas as entradas e saidas dele bonitinho tipo binario ele tem {0,1} em cada estado
+tabela completa com somente um estado em cada simbolo isso defini um DFA tambem
+
+EX
+1 - DFA todo estado possui uma transição para cada simbolo . O NFA não deterministico ,
+ então podemos ter nenhuma ou mais de uma trasisão para cada simbolo
+
+ Expressões regulares:
+ expressao regular eh o que representa a linguagem. Defini o que a linguagem é . Representa definitivamente
+ o que a linguagem é. Já o outro só representa as cadeias

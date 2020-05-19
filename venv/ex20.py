@@ -1,0 +1,15 @@
+import random
+print('Digite os nomes dos alunos : ')
+aluno1 = input('digite o nome do primeiro aluno: ')
+aluno2 = input('digite o nome do segundo aluno : ')
+aluno3 = input('digite o nome do terceiro aluno :')
+aluno4 = input('digite o nome do quarto aluno : ')
+aluno = [aluno1,aluno2,aluno3,aluno4]
+print('-'*50)
+print('    {} '.format(aluno1))
+print('    {} '.format(aluno2))
+print('    {} '.format(aluno3))
+print('    {} '.format(aluno4))
+print('Ordem de alunos para a apresentação dos trabalhos é : ')
+print(random.sample(aluno,k=4))
+print('-'*50)
