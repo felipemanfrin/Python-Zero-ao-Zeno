@@ -8,3 +8,5 @@ def fatorial (n):
 num = int(input('Digite um valor : '))
 fat = fatorial(num)
 print(f'O fatorial de {num} é {fat}')
+
+testando se consigo atualizar somente isso
